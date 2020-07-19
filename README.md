@@ -3,7 +3,7 @@
 A web application that takes a user's birth date and calculates the day of the week they were born and depending on their gender, it outputs their Akan name. Akan names are derived from Ghanian culture. In Ghana, children are given their first name which corresponds to the day of the week they were born. 
 
 <!--- Image --->
-![Landing Page](akan-names-landing-page.jpg)
+![Landing Page](akan-names-landing.jpg)
 
 ## Technologies Used
 - JavaScript
