@@ -6,8 +6,12 @@ A web application that takes a user's birth date and calculates the day of the w
 ![Landing Page](akan-names-landing-page.jpg)
 
 ## Technologies Used
-
-
+JavaScript
+HTML 5
+CSS 3
+Git
+Bootstrap
+Markdown
 ##### Requirements
 
 
