@@ -56,12 +56,12 @@ If you find a bug (the website couldn't handle the query and or gave undesired r
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
 
-##### Link to Live Site : 
+### Link to Live Site : 
 
 ### License
 
 *MIT*
-Copyright (c) 2019 **Timothy Munene**
+Copyright (c) 2020 **Timothy Munene**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
