@@ -37,7 +37,7 @@ A web application that takes a user's birth date and calculates the day of the w
 
 ## Development
 <!-- Change -->
-Want to contribute? Great!
+Want to contribute? Awesome!
 
 To fix a bug or enhance an existing module, follow these steps:
 - Fork the repo
