@@ -19,7 +19,7 @@ Search engine, preferrably Google Chrome
 
 ##### Setup Instructions and Installation
 
-- Clone this repository to a location in your file system.
+- Clone this repository to a location in your file system:
 https://github.com/TimothyGicharu/akan-name-generator.git
 - Open terminal command line then navigate to the root folder of the application. 
 - Open `index.html` on your Browser.

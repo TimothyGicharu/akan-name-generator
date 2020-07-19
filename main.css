@@ -1,6 +1,6 @@
 body {
     font-family: 'Inconsolata', monospace;
-    background-color: aquamarine;
+    background-color: #34ebcd;
 }
 :root {
     --input-padding-x: 1.5rem;
