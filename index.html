@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Week 2</title>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+      <div class="col-md-8 col-lg-6">
+        <div class="login d-flex align-items-center py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-lg-8 mx-auto">
+                <h3 class="login-heading mb-4">Akan names!</h3>
+
+                <blockquote class="blockquote">
+                  <p class="small mb-0">The Akan people of Ghana frequently name their children after the day of the week they 
+                    were born and the order in which they were born. These names have further meanings 
+                    concerning the soul and character of the person.</p>
+                </blockquote>
+
+                <form class="needs-validation" novalidate>
+
+                  <div id="nameResult" class="alert alert-success" role="alert" style="visibility: hidden">
+            
+                  </div>
+
+                  <div class="form-group">
+                    <label for="gender">Gender</label>
+              <select class="custom-select input" id="gender" class="form-control" required>
+                <option selected disabled value="">Gender...</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+              </select>
+                  </div>
+  
+                  <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input id="dob" class="form-control" data-inputmask="'alias': 'date'" required>
+                  </div>
+<button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Submit</button>
+                     
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- 
+    <div class="jumbotron">
+        <h1 class="display-4">Akan name generator</h1>
+        <p class="lead">Hi! Get to discover your Akan name today with this new revolutionary tool.</p>
+        <p>The Akan people of Ghana frequently name their children after the day of the week they 
+            were born and the order in which they were born. These names have further meanings 
+            concerning the soul and character of the person. Middle names have considerably more 
+            variety and can refer to their birth order, twin status or an ancestor's middle name. 
+            Exciting right? 
+        </p>
+        <p>Know your Akan name today!</p>
+        <hr class="my-4">
+        <p>It uses the user's gender information and date of birth to generate the Akan name.</p>
+        <a class="btn btn-primary btn-lg" href="https://en.wikipedia.org/wiki/Akan_names" role="button">Learn more</a>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+
+          <div id="nameResult" class="alert alert-success" role="alert" style="visibility: hidden">
+            
+          </div>
+
+          <form class="needs-validation" novalidate>
+
+            Gender
+            <div class="form-group">
+              <label for="gender">Gender</label>
+              <select class="custom-select" id="gender" required>
+                <option selected disabled value="">Choose...</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+              </select>
+            </div>
+
+            DOB
+            <div class="form-group">
+              <label for="dob">Date of Birth</label>
+              <input id="dob" class="form-control" data-inputmask="'alias': 'date'" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+          </form>
+        </div>
+    
+        
+        </div>
+      </div>
+      
+       </div>
+     -->
+      <script type='text/javascript' src='https://code.jquery.com/jquery-1.11.0.js'></script>
+       <script type='text/javascript' src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+       
+<script src="app.js"></script>
+</body>
+</html>
