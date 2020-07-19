@@ -6,12 +6,13 @@ A web application that takes a user's birth date and calculates the day of the w
 ![Landing Page](akan-names-landing-page.jpg)
 
 ## Technologies Used
-JavaScript
-HTML 5
-CSS 3
-Git
-Bootstrap
-Markdown
+- JavaScript
+- HTML 5
+- CSS 3
+- Git
+- Bootstrap
+- Markdown
+
 ##### Requirements
 Editor e.g VSCode, Atom
 Search engine, preferrably Google Chrome
@@ -62,7 +63,7 @@ If you find a bug (the website couldn't handle the query and or gave undesired r
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
 
-### Link to Live Site : 
+### Link to Live Site : https://timothygicharu.github.io/akan-name-generator/
 
 ### License
 
