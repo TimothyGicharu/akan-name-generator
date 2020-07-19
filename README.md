@@ -13,7 +13,8 @@ Git
 Bootstrap
 Markdown
 ##### Requirements
-
+Editor e.g VSCode, Atom
+Search engine, preferrably Google Chrome
 
 
 ##### Setup Instructions and Installation
