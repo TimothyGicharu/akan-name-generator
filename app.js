@@ -5,14 +5,12 @@ $(document).ready(function(){
     // Loop over them and prevent submission
     var validation = Array.prototype.filter.call(forms, function(form) {
       form.addEventListener('submit', function(event) {
-        if (form.checkValidity() === false) {
-          event.preventDefault();
-          event.stopPropagation();
-        }else{
+        event.preventDefault();
+        event.stopPropagation();
+        if (form.checkValidity()) {
             //gender
             var e = form['gender'];
             var gender = e.options[e.selectedIndex].value;
-            console.log(gender);
 
             //date
             var dateSelected = form['dob'].value;
@@ -33,10 +31,6 @@ $(document).ready(function(){
               //user is female
               akanName = femaleNames[dayOfWeek]
             }
-
-            console.log(dayOfWeek);
-            console.log(akanName);
-
 
             //show modal
             document.getElementById('nameResult').innerHTML = `Your Akan name is: ${akanName}`
